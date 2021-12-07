@@ -1,1 +1,6 @@
-print("testdd,d world from Alex")
+print("Hello world from Alex")
+
+import requests
+
+response = requests.get("https://playground.learnqa.ru/api/get_text")
+print(response.text)
